@@ -46,7 +46,9 @@ This project investigates how the distribution of **sample means** behaves as sa
 
 ```
 clt_simulation_study.ipynb   # Main Jupyter Notebook with all simulations and analyses
-README.md               # Project documentation
+requirements.txt             # Python dependencies
+LICENSE                      # MIT License
+README.md                    # Project documentation
 ```
 
 ---
@@ -91,7 +93,7 @@ Each panel also compares observed vs. theoretical SEM in tabular format.
 1. Clone this repository
 2. Install dependencies:
    ```bash
-   pip install numpy pandas matplotlib scipy
+   pip install -r requirements.txt
    ```
 3. Open the notebook:
    ```bash
@@ -105,3 +107,9 @@ Each panel also compares observed vs. theoretical SEM in tabular format.
 ## 📚 Context
 
 This project was developed as an academic assignment for a **Data Science & A.I** course. It demonstrates the practical application of the Central Limit Theorem through simulation, reinforcing theoretical concepts with empirical evidence.
+
+---
+
+## License
+
+This project is released under the MIT License — see the [LICENSE](LICENSE) file for details.
