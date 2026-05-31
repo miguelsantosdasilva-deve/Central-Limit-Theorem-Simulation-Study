@@ -45,7 +45,7 @@ This project investigates how the distribution of **sample means** behaves as sa
 ##  Project Structure
 
 ```
-trabalho_t2.ipynb       # Main Jupyter Notebook with all simulations and analyses
+clt_simulation_study.ipynb   # Main Jupyter Notebook with all simulations and analyses
 README.md               # Project documentation
 ```
 
@@ -95,9 +95,9 @@ Each panel also compares observed vs. theoretical SEM in tabular format.
    ```
 3. Open the notebook:
    ```bash
-   jupyter notebook trabalho_t2.ipynb
+   jupyter notebook clt_simulation_study.ipynb
    ```
-4. Set your team leader's `RA` value in the appropriate cell to generate your group's custom populations
+4. Set the `RA` value in the configuration cell — it seeds the generator (`random.seed(RA)`), so every simulation is fully reproducible
 5. Run all cells in order
 
 ---
