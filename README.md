@@ -99,7 +99,7 @@ Each panel also compares observed vs. theoretical SEM in tabular format.
    ```bash
    jupyter notebook clt_simulation_study.ipynb
    ```
-4. Set the `RA` value in the configuration cell — it seeds the generator (`random.seed(RA)`), so every simulation is fully reproducible
+4. The seed value (`RA`) in the configuration cell initializes the generator (`random.seed(RA)`), so every simulation is fully reproducible
 5. Run all cells in order
 
 ---
